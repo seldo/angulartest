@@ -14,6 +14,7 @@ var app = express();
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
+app.engine('jshtml', require('jshtml-express'))
 app.set('view engine', 'jshtml');
 app.use(express.favicon());
 app.use(express.logger('dev'));

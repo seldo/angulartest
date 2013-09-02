@@ -1,2 +1,11 @@
-<h1>@write(title)</h1>
-<p>Welcome to @write(title)</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> @write(title) </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>@write(title)</h1>
+    <p>Welcome to @write(title)</p>
+  </body>
+</html>
