@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
   <head>
     <title> @write(title) </title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="http://code.angularjs.org/1.2.0rc1/angular.min.js"></script>
+    <script src="/javascripts/script.js"></script>
   </head>
   <body>
     <h1>@write(title)</h1>
-    <p>Welcome to @write(title)</p>
+    <div>
+      {{ 'World' | greet }}
+    </div>
   </body>
 </html>
